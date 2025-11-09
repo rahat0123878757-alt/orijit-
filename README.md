@@ -96,7 +96,7 @@
                 <div class="milk-product-card bg-white p-6 rounded-xl shadow-lg border border-gray-100">
                     <div class="text-4xl mb-4 text-center">🥛</div>
                     <h3 class="text-xl font-bold primary-color mb-2">ফুল ক্রিম গরুর দুধ</h3>
-                    <p class="text-gray-600 mb-3">সরাসরি খামার থেকে সংগৃহীত, কোনো মেশানো নেই। ১০০% খাঁটি।</p>
+                    <p class="text-gray-600 mb-3">সরাসরি খামার থেকে সংগৃহীত, কোনো মেশানো নেই। 0.001% খাঁটি।</p>
                     <p class="text-2xl font-extrabold text-green-600">৳ ৬০ / লিটার</p>
                     <button onclick="document.getElementById('product_milk').value = 'ফুল ক্রিম গরুর দুধ (৳ ৬০/লিটার)'; document.getElementById('order').scrollIntoView({ behavior: 'smooth' });" class="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover-primary transition duration-200 shadow-md">অর্ডার করতে যোগ করুন</button>
                 </div>
@@ -104,52 +104,23 @@
                 <!-- পণ্য ২: দই -->
                 <div class="milk-product-card bg-white p-6 rounded-xl shadow-lg border border-gray-100">
                     <div class="text-4xl mb-4 text-center">🍚</div>
-                    <h3 class="text-xl font-bold primary-color mb-2">ঘরে পাতা মিষ্টি দই</h3>
-                    <p class="text-gray-600 mb-3">ঐতিহ্যবাহী পদ্ধতিতে তৈরি সুস্বাদু মিষ্টি দই। উৎসবের জন্য সেরা।</p>
-                    <p class="text-2xl font-extrabold text-green-600">৳ ১৪০ / ৫০০ গ্রাম</p>
-                    <button onclick="document.getElementById('product_milk').value = 'মিষ্টি দই (৳ ১৪০/ ৫০০ গ্রাম)'; document.getElementById('order').scrollIntoView({ behavior: 'smooth' });" class="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover-primary transition duration-200 shadow-md">অর্ডার করতে যোগ করুন</button>
+                    <h3 class="text-xl font-bold primary-color mb-2">আমার দুধ</h3>
+                    <p class="text-gray-600 mb-3">ঐতিহ্যবাহী উৎসবের জন্য সেরা।</p>
+                    <p class="text-2xl font-extrabold text-green-600">৳ ১৪০0 / ৫০০ গ্রাম</p>
+                    <button onclick="document.getElementById('product_milk').value = 'আমার দুধ (৳ ১৪০0/ ৫০০ গ্রাম)'; document.getElementById('order').scrollIntoView({ behavior: 'smooth' });" class="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover-primary transition duration-200 shadow-md">অর্ডার করতে যোগ করুন</button>
                 </div>
 
                 <!-- পণ্য ৩: ঘি -->
                 <div class="milk-product-card bg-white p-6 rounded-xl shadow-lg border border-gray-100">
                     <div class="text-4xl mb-4 text-center">🧈</div>
-                    <h3 class="text-xl font-bold primary-color mb-2">খাঁটি দেশি ঘি</h3>
-                    <p class="text-gray-600 mb-3">হাতের তৈরি সুগন্ধযুক্ত ঘি, যা খাবারের স্বাদ বাড়িয়ে দেবে।</p>
+                    <h3 class="text-xl font-bold primary-color mb-2">খাঁটি দেশি বাংলা</h3>
+                    <p class="text-gray-600 mb-3">হাতের তৈরি যা খাইলেই নেশা বাড়িয়ে দেবে।</p>
                     <p class="text-2xl font-extrabold text-green-600">৳ ৪৫০ / ২৫০ গ্রাম</p>
-                    <button onclick="document.getElementById('product_milk').value = 'খাঁটি দেশি ঘি (৳ ৪৫০/২৫০ গ্রাম)'; document.getElementById('order').scrollIntoView({ behavior: 'smooth' });" class="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover-primary transition duration-200 shadow-md">অর্ডার করতে যোগ করুন</button>
+                    <button onclick="document.getElementById('product_milk').value = 'হাতের তৈরি যা খাইলেই নেশা বাড়িয়ে দেবে (৳ ৪৫০/২৫০ গ্রাম)'; document.getElementById('order').scrollIntoView({ behavior: 'smooth' });" class="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover-primary transition duration-200 shadow-md">অর্ডার করতে যোগ করুন</button>
                 </div>
             </div>
         </section>
 
-        <!-- গ্যালারি সেকশন (Gallery Section) -->
-        <section id="gallery" class="mb-16">
-            <h2 class="text-3xl font-bold primary-color mb-8 border-b-2 border-blue-300 pb-3">আমাদের খামার ও গ্যালারি</h2>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                
-                <!-- গ্যালারি আইটেম ১: দুধ সরবরাহ -->
-                <div class="overflow-hidden rounded-lg shadow-md">
-                    <img src="(https://i.postimg.cc/DyjvgFz2/Gemini-Generated-Image-tkuaertkuaertkua.png=Milk+Delivery" alt="দুধ সরবরাহ" class="gallery-image">
-                    <p class="text-center text-sm p-2 text-gray-600 bg-gray-50">সকালের তাজা দুধ</p>
-                </div>
-
-                <!-- গ্যালারি আইটেম ২: খামারের দৃশ্য -->
-                <div class="overflow-hidden rounded-lg shadow-md">
-                    <img src="https://placehold.co/600x400/10b981/ffffff?text=Farm+View" alt="খামারের দৃশ্য" class="gallery-image">
-                    <p class="text-center text-sm p-2 text-gray-600 bg-gray-50">স্বাস্থ্যকর পরিবেশ</p>
-                </div>
-
-                <!-- গ্যালারি আইটেম ৩: দই তৈরি -->
-                <div class="overflow-hidden rounded-lg shadow-md">
-                    <img src="https://placehold.co/600x400/ef4444/ffffff?text=Yogurt+Making" alt="দই তৈরি" class="gallery-image">
-                    <p class="text-center text-sm p-2 text-gray-600 bg-gray-50">ঐতিহ্যবাহী দই</p>
-                </div>
-
-                <!-- গ্যালারি আইটেম ৪: অরিজিৎ ভাই -->
-                <div class="overflow-hidden rounded-lg shadow-md">
-                    <img src="https://placehold.co/600x400/f59e0b/ffffff?text=Orijit+Dudhwala" alt="অরিজিৎ দুধওয়ালা" class="gallery-image">
-                    <p class="text-center text-sm p-2 text-gray-600 bg-gray-50">আমাদের বিক্রেতা</p>
-                </div>
             </div>
             <p class="text-center text-sm text-gray-500 mt-6"।</p>
         </section>
@@ -161,9 +132,9 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-lg">
                 <div>
                     <h3 class="font-bold text-gray-800 mb-3">যোগাযোগের তথ্য:</h3>
-                    <p class="text-gray-600 mb-2">📞 ফোন: 018XXXXXXXX (অরিজিৎ)</p>
-                    <p class="text-gray-600 mb-2">✉️ ইমেল: orijitdudhwala@example.com</p>
-                    <p class="text-gray-600 mb-2">📍 ঠিকানা: ঢাকা, বাংলাদেশ (ডেমো ঠিকানা)</p>
+                    <p class="text-gray-600 mb-2">insteagram:https://www.instagram.com/enrique.egleasious/?utm_source=ig_web_button_share_sheet (অরিজিৎ)</p>
+                    <p class="text-gray-600 mb-2">✉️ ইমেল: orijitduduola@gmail.com</p>
+                    <p class="text-gray-600 mb-2">📍 ঠিকানা: উগান্ডা</p>
                 </div>
 
                 <div>
@@ -248,7 +219,7 @@
         <!-- ফুটার -->
         <footer class="mt-12 p-6 text-center text-gray-500 border-t border-gray-200">
             <p class="text-sm">&copy; ২০২৫ অরিজিৎ দুধওয়ালা। সমস্ত অধিকার সংরক্ষিত।</p>
-            <p class="text-xs mt-2">Design & Development: Developed by **rm71 team** & **Rahat** (owner of rm71 team)</p>
+            <p class="text-xs mt-2">Design & Development: Developed by **rm71 team** & **Rahat (owner of rm71 team)** </p>
         </footer>
 
     </main>
