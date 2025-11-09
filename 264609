@@ -118,16 +118,7 @@
                     <p class="text-2xl font-extrabold text-green-600">৳ ৪৫০ / ২৫০ গ্রাম</p>
                     <button onclick="document.getElementById('product_milk').value = 'খাঁটি দেশি ঘি (৳ ৪৫০/২৫০ গ্রাম)'; document.getElementById('order').scrollIntoView({ behavior: 'smooth' });" class="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover-primary transition duration-200 shadow-md">অর্ডার করতে যোগ করুন</button>
                 </div>
-            </div>
-        </section>
 
-        <!-- গ্যালারি সেকশন (Gallery Section) -->
-        <section id="gallery" class="mb-16">
-            <h2 class="text-3xl font-bold primary-color mb-8 border-b-2 border-blue-300 pb-3">আমাদের খামার ও গ্যালারি</h2>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                
-                </div>
             </div>
             <p class="text-center text-sm text-gray-500 mt-6">।</p>
         </section>
