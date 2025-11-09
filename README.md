@@ -151,7 +151,7 @@
                     <p class="text-center text-sm p-2 text-gray-600 bg-gray-50">আমাদের বিক্রেতা</p>
                 </div>
             </div>
-            <p class="text-center text-sm text-gray-500 mt-6">গ্যালারির ছবিগুলো পরিবর্তন করতে ছবির লিংকগুলো বদলে দিন।</p>
+            <p class="text-center text-sm text-gray-500 mt-6"।</p>
         </section>
 
         <!-- যোগাযোগ সেকশন (Contact Section) -->
