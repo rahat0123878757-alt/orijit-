@@ -129,7 +129,7 @@
                 
                 <!-- গ্যালারি আইটেম ১: দুধ সরবরাহ -->
                 <div class="overflow-hidden rounded-lg shadow-md">
-                    <img src="https://placehold.co/600x400/3b82f6/ffffff?text=Milk+Delivery" alt="দুধ সরবরাহ" class="gallery-image">
+                    <img src="(https://i.postimg.cc/DyjvgFz2/Gemini-Generated-Image-tkuaertkuaertkua.png=Milk+Delivery" alt="দুধ সরবরাহ" class="gallery-image">
                     <p class="text-center text-sm p-2 text-gray-600 bg-gray-50">সকালের তাজা দুধ</p>
                 </div>
 
